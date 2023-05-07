@@ -15,7 +15,7 @@ body .container {
   width: 330px;
   height: 430px;
   border-radius: 16px;
-  overflow: hidden;
+  overflow-x: hidden;
   padding: 16px 12px;
   background-color: #fff;
 }

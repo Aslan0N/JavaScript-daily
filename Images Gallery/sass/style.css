@@ -1,0 +1,43 @@
+body {
+  height: 100vh;
+  font-family: monospace;
+}
+body * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body .buttons {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 200px;
+  background-color: black;
+}
+body .buttons a {
+  background-color: gray;
+  margin-left: 5px;
+  width: auto;
+  padding: 8px 12px;
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+}
+body .buttons a:active {
+  box-shadow: 1px 1px 4px grey;
+}
+body .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: aqua;
+}
+body .container img {
+  width: 20%;
+  height: 200px;
+}/*# sourceMappingURL=style.css.map */
